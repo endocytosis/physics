@@ -27,7 +27,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by StackBlitz{' '}
-          <img src="https://c.staticblitz.com/assets/favicon-7453cf0c12d349fb64b7aa2b69cc69c026f083a27f139f0839b1f4948bed6811.png" />
+          <img
+            src="https://c.staticblitz.com/assets/favicon-7453cf0c12d349fb64b7aa2b69cc69c026f083a27f139f0839b1f4948bed6811.png"
+            width="50"
+            height="50"
+          />
         </a>
       </footer>
     </div>
