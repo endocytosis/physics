@@ -26,7 +26,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Stackblitz
+          Powered by StackBlitz &#128498;
         </a>
       </footer>
     </div>
