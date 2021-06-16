@@ -6,12 +6,20 @@ export default function Mechanics() {
     <div className={styles.container}>
       <Head>
         <title>Mechanics</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="#">Mechanics Simulations</a>
         </h1>
+
+        <p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+         \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]</p>
+
       </main>
 
       <footer className={styles.footer}>
