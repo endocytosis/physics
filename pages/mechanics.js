@@ -12,31 +12,6 @@ export default function Mechanics() {
         <h1 className={styles.title}>
           Welcome to <a href="#">Mechanics Simulations</a>
         </h1>
-
-        <div className={styles.grid}>
-          <a href="/mechanics" className={styles.card}>
-            <h3>Mechanics</h3>
-            <p>
-              Kinematics, Newton's Laws of Motion, Work, Rotational Motion,
-              Oscillations
-            </p>
-          </a>
-
-          <a href="#" className={styles.card}>
-            <h3>Electricity and Magnetism</h3>
-            <p>Electrostatics, Circuits, Fields, Electromagnetism</p>
-          </a>
-
-          <a href="#" className={styles.card}>
-            <h3>Modern</h3>
-            <p>Atomic Theory, Single and Double Slit Diffraction</p>
-          </a>
-
-          <a href="#" className={styles.card}>
-            <h3>Optics</h3>
-            <p>Mirrors, Lenses, Thin-Film Interference</p>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
