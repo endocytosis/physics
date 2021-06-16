@@ -10,7 +10,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="#">Physics Simulations</a>
+          Welcome to <a href="#">Physics Equations</a>
         </h1>
 
         <div className={styles.grid} />
